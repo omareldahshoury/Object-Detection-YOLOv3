@@ -1,6 +1,8 @@
 # YOLOv3
 
 Part of the course "Python for Computer Vision with OpenCV and Deep Learning" presented on Udemy.com by Jose Portilla.
+Youtube Link to the project's final output https://youtu.be/SYaCp8acYp0
+
 
 Keras(TF backend) implementation of yolo v3 objects detection. 
 
@@ -22,6 +24,7 @@ python yad2k.py cfg\yolo.cfg yolov3.weights data\yolo.h5
 ```
 
 - run follow command to show the demo. The result can be found in `images\res\` floder.
+- Add a video to the "videos\test\" folder and the result video could be found in "videos\res\"
 ```
 python demo.py
 ```
